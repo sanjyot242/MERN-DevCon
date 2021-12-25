@@ -1,0 +1,26 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "This is a MERN app ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server":"nodemon server"
+  },
+  "author": "Sanjyot Satvi",
+  "license": "MIT",
+  "dependencies": {
+    "axiom": "^0.1.6",
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.3"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1"
+  }
+}
